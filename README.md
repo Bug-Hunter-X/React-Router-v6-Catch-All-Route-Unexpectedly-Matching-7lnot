@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router v6 where the catch-all route (`/*`) unexpectedly overrides other more specific routes.  The issue is that, in this specific case, it always matches, even when another route (such as `/about`) matches first.  The solution provided demonstrates how to correctly implement catch-all routes to avoid this problem.
